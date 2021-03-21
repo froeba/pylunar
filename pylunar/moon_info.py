@@ -46,7 +46,7 @@ class MoonInfo(object):
     """
 
     DAYS_TO_HOURS = 24.0
-    MAIN_PHASE_CUTOFF = 2.0
+    MAIN_PHASE_CUTOFF = 24.0
     # Time cutoff (hours) around the NM, FQ, FM, and LQ phases
     FEATURE_CUTOFF = 15.0
     # The offset (degrees) from the colongitude used for visibility check
